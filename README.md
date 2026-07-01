@@ -17,9 +17,26 @@ This repository contains my daily training tasks, exercises, and projects comple
 * Loops
 * Input / Output
 
-**Folder**
+---
+
+### Day 02 – Data Structures
+
+**Topics Covered**
+
+* Lists
+* Tuples
+* Dictionaries
+* Sets
+* Strings
+
+---
+
+## Repository Structure
 
 ```text
 Week_01_Python_Revision_OOP/
-└── Day_01_Python_Fundamentals/
+│
+├── Day_01_Python_Fundamentals/
+│
+└── Day_02_Data_Structures/
 ```
