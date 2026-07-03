@@ -50,6 +50,20 @@ This repository contains my daily training tasks, exercises, and projects comple
 * Modules (`import`, `from ... import`, Custom Modules)
 
 ---
+### Day 04 – Object-Oriented Programming (OOP) Part 1
+
+**Topics Covered**
+
+* Classes & Objects
+* `__init__()` Constructor and `self`
+* Instance Variables vs Class Variables
+* Instance Methods
+* `@classmethod`
+* `@staticmethod`
+* Encapsulation (Public, Protected, Private)
+* `@property`
+
+---
 
 ## Repository Structure
 
@@ -61,4 +75,6 @@ Week_01_Python_Revision_OOP/
 ├── Day_02_Data_Structures/
 │
 └── Day_03_Functions/
+│
+└── Day_04_OOP/
 ```
