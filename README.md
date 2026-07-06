@@ -64,6 +64,23 @@ This repository contains my daily training tasks, exercises, and projects comple
 * `@property`
 
 ---
+### Day 05 – Object-Oriented Programming (OOP) Part 2 + Practical Python
+
+**Topics Covered**
+
+* Inheritance (Single & Multiple)
+* `super()`
+* Polymorphism
+* Method Overriding
+* Duck Typing
+* Abstraction (`abc` Module)
+* Dunder (Magic) Methods
+* Exception Handling
+* File Handling ,JSON Handling
+* Virtual Environments (`venv`)
+* `pip`
+* `requirements.txt`
+* Basic Type Hints
 
 ## Repository Structure
 
@@ -77,4 +94,6 @@ Week_01_Python_Revision_OOP/
 └── Day_03_Functions/
 │
 └── Day_04_OOP/
+│
+└── Day_05_OOP_Part2/
 ```
