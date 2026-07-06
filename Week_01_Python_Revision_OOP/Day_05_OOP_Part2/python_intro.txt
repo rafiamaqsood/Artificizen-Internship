@@ -1,0 +1,33 @@
+
+Python Programming Introduction
+
+Python is a high-level, interpreted programming language known for its simple and readable syntax. 
+It is widely used in web development, data science, artificial intelligence, automation, and software development.
+
+Key Features of Python:
+- Easy to learn and use
+- Open-source and free
+- Supports object-oriented programming
+- Large standard library
+- Cross-platform compatibility
+
+Basic Python Example:
+
+print("Hello, World!")
+
+Variables Example:
+
+name = "Rafia"
+age = 21
+
+print(name)
+print(age)
+
+Python Data Types:
+- int  Integer numbers
+- float Decimal numbers
+- str  Text values
+- bool  True or False
+- list  Collection of items
+
+Python allows developers to write clean and efficient code with fewer lines compared to many other programming languages.
