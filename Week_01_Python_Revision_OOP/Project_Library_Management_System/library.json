@@ -1,0 +1,29 @@
+{
+    "books": [
+        {
+            "title": "Harry Potter",
+            "author": "Rowling",
+            "isbn": "1234",
+            "copies": 4
+        },
+        {
+            "title": "Alif",
+            "author": "Nimra",
+            "isbn": "456",
+            "copies": 1
+        },
+        {
+            "title": "A Tale of Two Cities",
+            "author": "Charles Dickens",
+            "isbn": "567",
+            "copies": 2
+        }
+    ],
+    "members": [
+        {
+            "name": "Rafia ",
+            "member_id": "12",
+            "borrowed_books": []
+        }
+    ]
+}
