@@ -82,6 +82,51 @@ This repository contains my daily training tasks, exercises, and projects comple
 * `requirements.txt`
 * Basic Type Hints
 
+---
+
+## Week 01 Capstone Project
+
+## Library Management System (CLI)
+
+A command-line Library Management System developed using Python to apply all concepts learned during Week 1.
+
+### Features
+
+- Add Books
+- Add Members
+- Search Books
+  - By ISBN
+  - By Title
+- Issue Books
+- Return Books
+- View All Books
+- View All Members
+- JSON Data Persistence
+- Custom Exception Handling
+- Input Validation
+- Menu-Driven CLI
+
+---
+## Week 02 – FastAPI
+
+### Day 01 – FastAPI Basics & Setup
+
+**Topics Covered**
+
+* Introduction to FastAPI
+* Virtual Environment Setup
+* Installing FastAPI & Uvicorn
+* Creating a FastAPI Application
+* Running the Development Server
+* Path Parameters
+* Query Parameters
+* HTTP Methods (GET, POST)
+* HTTP Status Codes
+* HTTPException
+* Interactive API Documentation (Swagger UI & ReDoc)
+
+---
+
 ## Repository Structure
 
 ```text
@@ -91,9 +136,15 @@ Week_01_Python_Revision_OOP/
 │
 ├── Day_02_Data_Structures/
 │
-└── Day_03_Functions/
+├── Day_03_Functions/
 │
-└── Day_04_OOP/
+├── Day_04_OOP/
 │
-└── Day_05_OOP_Part2/
+├── Day_05_OOP_Part2/
+|
+├── Project_Library_Management_System/
+
+Week_02_FastAPI/
+│
+├── Day_01_FastAPI_Basics/
 ```
