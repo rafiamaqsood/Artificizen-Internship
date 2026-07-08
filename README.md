@@ -1,14 +1,14 @@
 # AI Engineer Internship – Artificizen
 
-This repository contains my daily training tasks, exercises, and projects completed during my AI Engineer internship at **Artificizen**.
+This repository contains my daily training tasks, exercises, and projects completed during my AI Engineer internship at Artificizen.
 
 ---
 
-## Week 01 – Python Revision & OOP
+# Week 01 – Python Revision & OOP
 
-### Day 01 – Python Fundamentals
+## Day 01 – Python Fundamentals
 
-**Topics Covered**
+### Topics Covered
 
 * Variables & Data Types
 * Operators
@@ -19,9 +19,9 @@ This repository contains my daily training tasks, exercises, and projects comple
 
 ---
 
-### Day 02 – Data Structures
+## Day 02 – Data Structures
 
-**Topics Covered**
+### Topics Covered
 
 * Lists
 * Tuples
@@ -31,9 +31,9 @@ This repository contains my daily training tasks, exercises, and projects comple
 
 ---
 
-### Day 03 – Functions & Functional Tools
+## Day 03 – Functions & Functional Tools
 
-**Topics Covered**
+### Topics Covered
 
 * Function Basics (`def`, parameters, return values)
 * Default Arguments
@@ -50,9 +50,10 @@ This repository contains my daily training tasks, exercises, and projects comple
 * Modules (`import`, `from ... import`, Custom Modules)
 
 ---
-### Day 04 – Object-Oriented Programming (OOP) Part 1
 
-**Topics Covered**
+## Day 04 – Object-Oriented Programming (OOP) Part 1
+
+### Topics Covered
 
 * Classes & Objects
 * `__init__()` Constructor and `self`
@@ -64,9 +65,10 @@ This repository contains my daily training tasks, exercises, and projects comple
 * `@property`
 
 ---
-### Day 05 – Object-Oriented Programming (OOP) Part 2 + Practical Python
 
-**Topics Covered**
+## Day 05 – Object-Oriented Programming (OOP) Part 2 + Practical Python
+
+### Topics Covered
 
 * Inheritance (Single & Multiple)
 * `super()`
@@ -76,7 +78,8 @@ This repository contains my daily training tasks, exercises, and projects comple
 * Abstraction (`abc` Module)
 * Dunder (Magic) Methods
 * Exception Handling
-* File Handling ,JSON Handling
+* File Handling
+* JSON Handling
 * Virtual Environments (`venv`)
 * `pip`
 * `requirements.txt`
@@ -84,7 +87,7 @@ This repository contains my daily training tasks, exercises, and projects comple
 
 ---
 
-## Week 01 Capstone Project
+# Week 01 Capstone Project
 
 ## Library Management System (CLI)
 
@@ -92,26 +95,28 @@ A command-line Library Management System developed using Python to apply all con
 
 ### Features
 
-- Add Books
-- Add Members
-- Search Books
-  - By ISBN
-  - By Title
-- Issue Books
-- Return Books
-- View All Books
-- View All Members
-- JSON Data Persistence
-- Custom Exception Handling
-- Input Validation
-- Menu-Driven CLI
+* Add Books
+* Add Members
+* Search Books
+
+  * By ISBN
+  * By Title
+* Issue Books
+* Return Books
+* View All Books
+* View All Members
+* JSON Data Persistence
+* Custom Exception Handling
+* Input Validation
+* Menu-Driven CLI
 
 ---
-## Week 02 – FastAPI
 
-### Day 01 – FastAPI Basics & Setup
+# Week 02 – FastAPI
 
-**Topics Covered**
+## Day 01 – FastAPI Basics & Setup
+
+### Topics Covered
 
 * Introduction to FastAPI
 * Virtual Environment Setup
@@ -122,29 +127,48 @@ A command-line Library Management System developed using Python to apply all con
 * Query Parameters
 * HTTP Methods (GET, POST)
 * HTTP Status Codes
-* HTTPException
+* `HTTPException`
 * Interactive API Documentation (Swagger UI & ReDoc)
 
 ---
 
-## Repository Structure
+## Day 02 – Pydantic Models & Request/Response Validation
+
+### Topics Covered
+
+* Pydantic `BaseModel`
+* Request Body Validation
+* Field Constraints using `Field()`
+* Optional Fields & Default Values
+* Nested Models
+* Response Models (`response_model`)
+* `@field_validator`
+* `model_dump()`
+* `ConfigDict(from_attributes=True)`
+* Create vs Read Schema Pattern
+* Advanced Pydantic Models
+* `Annotated`
+* `EmailStr`
+* Strict Type Validation
+* Collection Types (`List`, `Dict`)
+* Custom Email Domain Validation
+
+---
+
+# Repository Structure
 
 ```text
 Week_01_Python_Revision_OOP/
 │
 ├── Day_01_Python_Fundamentals/
-│
 ├── Day_02_Data_Structures/
-│
 ├── Day_03_Functions/
-│
 ├── Day_04_OOP/
-│
 ├── Day_05_OOP_Part2/
-|
-├── Project_Library_Management_System/
+└── Project_Library_Management_System/
 
 Week_02_FastAPI/
 │
 ├── Day_01_FastAPI_Basics/
+└── Day_02_Pydantic_Models/
 ```
