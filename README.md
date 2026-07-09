@@ -10,12 +10,12 @@ This repository contains my daily training tasks, exercises, and projects comple
 
 ### Topics Covered
 
-* Variables & Data Types
-* Operators
-* String Formatting
-* Conditionals
-* Loops
-* Input / Output
+- Variables & Data Types
+- Operators
+- String Formatting
+- Conditionals
+- Loops
+- Input / Output
 
 ---
 
@@ -23,11 +23,11 @@ This repository contains my daily training tasks, exercises, and projects comple
 
 ### Topics Covered
 
-* Lists
-* Tuples
-* Dictionaries
-* Sets
-* Strings
+- Lists
+- Tuples
+- Dictionaries
+- Sets
+- Strings
 
 ---
 
@@ -35,19 +35,19 @@ This repository contains my daily training tasks, exercises, and projects comple
 
 ### Topics Covered
 
-* Function Basics (`def`, parameters, return values)
-* Default Arguments
-* `*args` and `**kwargs`
-* Lambda Functions
-* `map()`
-* `filter()`
-* `zip()`
-* `enumerate()`
-* `sorted()` with `key`
-* Local vs Global Scope
-* `global` Keyword
-* Recursion (Factorial & Fibonacci)
-* Modules (`import`, `from ... import`, Custom Modules)
+- Function Basics (`def`, parameters, return values)
+- Default Arguments
+- `*args` and `**kwargs`
+- Lambda Functions
+- `map()`
+- `filter()`
+- `zip()`
+- `enumerate()`
+- `sorted()` with `key`
+- Local vs Global Scope
+- `global` Keyword
+- Recursion (Factorial & Fibonacci)
+- Modules (`import`, `from ... import`, Custom Modules)
 
 ---
 
@@ -55,14 +55,14 @@ This repository contains my daily training tasks, exercises, and projects comple
 
 ### Topics Covered
 
-* Classes & Objects
-* `__init__()` Constructor and `self`
-* Instance Variables vs Class Variables
-* Instance Methods
-* `@classmethod`
-* `@staticmethod`
-* Encapsulation (Public, Protected, Private)
-* `@property`
+- Classes & Objects
+- `__init__()` Constructor and `self`
+- Instance Variables vs Class Variables
+- Instance Methods
+- `@classmethod`
+- `@staticmethod`
+- Encapsulation (Public, Protected, Private)
+- `@property`
 
 ---
 
@@ -70,20 +70,20 @@ This repository contains my daily training tasks, exercises, and projects comple
 
 ### Topics Covered
 
-* Inheritance (Single & Multiple)
-* `super()`
-* Polymorphism
-* Method Overriding
-* Duck Typing
-* Abstraction (`abc` Module)
-* Dunder (Magic) Methods
-* Exception Handling
-* File Handling
-* JSON Handling
-* Virtual Environments (`venv`)
-* `pip`
-* `requirements.txt`
-* Basic Type Hints
+- Inheritance (Single & Multiple)
+- `super()`
+- Polymorphism
+- Method Overriding
+- Duck Typing
+- Abstraction (`abc` Module)
+- Dunder (Magic) Methods
+- Exception Handling
+- File Handling
+- JSON Handling
+- Virtual Environments (`venv`)
+- `pip`
+- `requirements.txt`
+- Basic Type Hints
 
 ---
 
@@ -95,20 +95,19 @@ A command-line Library Management System developed using Python to apply all con
 
 ### Features
 
-* Add Books
-* Add Members
-* Search Books
-
-  * By ISBN
-  * By Title
-* Issue Books
-* Return Books
-* View All Books
-* View All Members
-* JSON Data Persistence
-* Custom Exception Handling
-* Input Validation
-* Menu-Driven CLI
+- Add Books
+- Add Members
+- Search Books
+  - By ISBN
+  - By Title
+- Issue Books
+- Return Books
+- View All Books
+- View All Members
+- JSON Data Persistence
+- Custom Exception Handling
+- Input Validation
+- Menu-Driven CLI
 
 ---
 
@@ -118,17 +117,17 @@ A command-line Library Management System developed using Python to apply all con
 
 ### Topics Covered
 
-* Introduction to FastAPI
-* Virtual Environment Setup
-* Installing FastAPI & Uvicorn
-* Creating a FastAPI Application
-* Running the Development Server
-* Path Parameters
-* Query Parameters
-* HTTP Methods (GET, POST)
-* HTTP Status Codes
-* `HTTPException`
-* Interactive API Documentation (Swagger UI & ReDoc)
+- Introduction to FastAPI
+- Virtual Environment Setup
+- Installing FastAPI & Uvicorn
+- Creating a FastAPI Application
+- Running the Development Server
+- Path Parameters
+- Query Parameters
+- HTTP Methods (GET, POST)
+- HTTP Status Codes
+- HTTPException
+- Interactive API Documentation (Swagger UI & ReDoc)
 
 ---
 
@@ -136,22 +135,47 @@ A command-line Library Management System developed using Python to apply all con
 
 ### Topics Covered
 
-* Pydantic `BaseModel`
-* Request Body Validation
-* Field Constraints using `Field()`
-* Optional Fields & Default Values
-* Nested Models
-* Response Models (`response_model`)
-* `@field_validator`
-* `model_dump()`
-* `ConfigDict(from_attributes=True)`
-* Create vs Read Schema Pattern
-* Advanced Pydantic Models
-* `Annotated`
-* `EmailStr`
-* Strict Type Validation
-* Collection Types (`List`, `Dict`)
-* Custom Email Domain Validation
+- Pydantic `BaseModel`
+- Request Body Validation
+- Field Constraints using `Field()`
+- Optional Fields & Default Values
+- Nested Models
+- Response Models (`response_model`)
+- `@field_validator`
+- `model_dump()`
+- `ConfigDict(from_attributes=True)`
+- Create vs Read Schema Pattern
+- Advanced Pydantic Models
+- `Annotated`
+- `EmailStr`
+- Strict Type Validation
+- Collection Types (`List`, `Dict`)
+- Custom Email Domain Validation
+
+---
+
+## Day 03 – Database Integration with SQLAlchemy
+
+### Topics Covered
+
+- SQLAlchemy Setup
+- PostgreSQL Integration
+- Database URL Configuration
+- `create_engine()`
+- `SessionLocal`
+- `declarative_base()`
+- SQLAlchemy Models
+- CRUD Operations
+- Dependency Injection using `Depends(get_db)`
+- Pydantic Schemas
+- SQLAlchemy Models vs Pydantic Schemas
+- One-to-Many Relationships
+- `ForeignKey`
+- `relationship()`
+- `back_populates`
+- Alembic Setup
+- Database Migrations
+- Auto-generated Migration Files
 
 ---
 
@@ -170,5 +194,6 @@ Week_01_Python_Revision_OOP/
 Week_02_FastAPI/
 │
 ├── Day_01_FastAPI_Basics/
-└── Day_02_Pydantic_Models/
+├── Day_02_Pydantic_Models/
+└── Day_03_SQLAIchemy_Database_Integration/
 ```
