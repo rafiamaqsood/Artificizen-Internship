@@ -244,6 +244,14 @@ alembic upgrade head
 
 ---
 
+## PostgreSQL Database
+
+
+<img width="1273" height="654" alt="image" src="https://github.com/user-attachments/assets/8a3137a0-0dfe-4fe8-8c26-a0f07e583779" />
+
+
+---
+
 ## Folder Structure
 
 ```text
