@@ -1,0 +1,25 @@
+# Environment variables
+.env
+
+# Virtual environment
+Day_02_Prompt_Engineering/venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Logs
+*.log
