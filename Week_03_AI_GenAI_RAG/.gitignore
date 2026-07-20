@@ -3,7 +3,7 @@
 
 # Virtual environment
 Day_02_Prompt_Engineering/venv/
-
+Day_03_Embeddings_Semantic_Search/venv/
 # Python cache
 __pycache__/
 *.py[cod]
