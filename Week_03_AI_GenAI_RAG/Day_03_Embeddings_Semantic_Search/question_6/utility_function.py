@@ -9,16 +9,18 @@ from sentence_transformers import SentenceTransformer
 model = SentenceTransformer("all-MiniLM-L6-v2")
 
 client = QdrantClient(":memory:")
-client.create_collection(
-    collection_name="documents",
-    vectors_config=VectorParams(
-        size=384,
-        distance=Distance.COSINE
-    )
-)
-
 def embed_and_store(texts, metadata_list, collection_name):
+    if not client.collection_exists(collection_name):
+        client.create_collection(
+            collection_name=collection_name,
+            vectors_config=VectorParams(
+                size=384,
+                distance=Distance.COSINE
+            )
+        )
+
     embeddings = model.encode(texts)
+
     points = []
 
     for i, (text, embedding, metadata) in enumerate(
