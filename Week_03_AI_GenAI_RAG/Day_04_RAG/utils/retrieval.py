@@ -9,4 +9,4 @@ def retrieve(query, collection="chunks", top_k=3):
         limit=top_k
     )
 
-    return [point.payload["text"] for point in results.points]
+    return results.points
